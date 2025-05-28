@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  background-color: #131921;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+header .search-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+header .search-bar input {
+  width: 85%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+header .search-bar button {
+  width: 13%;
+  padding: 10px;
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+header .search-bar button:hover {
+  background-color: #e68900;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Section */
+main {
+  padding: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background-color: navy blue;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 1.1rem;
+  color: green;
+  margin-bottom: 15px;
+}
+
+.product button {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product button:hover {
+  background-color: #e68900;
+}
+
+/* Footer Section */
+footer {
+  background-color: #131921;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
